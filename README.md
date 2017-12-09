@@ -6,21 +6,21 @@ Voici les instructions pour envoyer du code et fabriquer son programmateur à pa
 
 # MATÉRIEL NÉCESSAIRE
 
-1 Arduino UNO
-1 attiny85
-1 câble USB type A
-6 câbles de prototypages Femelle / Mâle
+* 1 Arduino UNO
+* 1 attiny85
+* 1 câble USB type A
+* 6 câbles de prototypages Femelle / Mâle
 
 # INSTALLATION ARDUINO IDE
 
-Rendez-vous sur le site Arduino ![](https://arduino.cc) dans la section Software :
+Rendez-vous sur le site  ![Arduino](https://arduino.cc) dans la section Software :
 ![Page d'Accueil Arduino](https://i1.wp.com/anderson69s.com/wp-content/uploads/2017/08/TinyJewel85_site_arduino.png?w=521&h=285&crop&ssl=1)
 
 Télécharger la dernière version de l’IDE pour votre système d’exploitation :
 ![Page de Download](https://i1.wp.com/anderson69s.com/wp-content/uploads/2017/08/TinyJewel85_arduino_download.png?w=521&h=285&crop&ssl=1)
 
 Vous pouvez choisir de faire une donation ou non juste avant de lancer le téléchargement :
-![Pensez à faire une Donation](https://i1.wp.com/anderson69s.com/wp-content/uploads/2017/08/TinyJewel85_arduino_download.png?w=521&h=285&crop&ssl=1)
+![Pensez à faire une Donation](https://i2.wp.com/anderson69s.com/wp-content/uploads/2017/08/TinyJewel85_arduino_donation.png?w=521&h=326&crop&ssl=1)
 
 Installez l’Arduino IDE sur votre ordinateur. Pour les utilisateurs de Windows je vous recommande d’utiliser l’installeur qui contient le pilote USB pour les cartes Arduino.
 
@@ -50,7 +50,7 @@ Ajoutez l’adresse suivante :
 Validez en cliquant sur OK. Allez alors dans le gestionnaire de cartes :
 ![Gestionnaire de Cartes](https://i1.wp.com/anderson69s.com/wp-content/uploads/2017/08/TinyJewel85_gestionnaire_cartes.png?w=338&h=102&crop&ssl=1)
 
-Gestionnaire de Cartes
+Gestionnaire de Cartes, Ajout de "attiny"
 ![Ajout attiny](https://i2.wp.com/anderson69s.com/wp-content/uploads/2017/08/TinyJewel85_ajout_attiny.png?w=179&h=102&crop&ssl=1)
 
 **Une fois ces opérations faites, redémarrez l’Arduino IDE afin que tout soit bien pris en compte.**
@@ -69,14 +69,6 @@ Vous pouvez alors choisir les bons paramètres pour la carte :
 # SOURCES & UPLOAD
 
 Il ne reste plus qu’à connecter l’Arduino UNO avec la carte  :
-
-ATTINY85 ===     Arduino Uno
-+5V           ===        +5V
-GND        ===        GND
-PB0        ===    D11
-PB1        ===    D12
-PB2        ===    D13
-RESET    ===    D10
 
 ATTINY85  | Arduino Uno
 ------------ | -------------
