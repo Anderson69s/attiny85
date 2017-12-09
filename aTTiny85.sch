@@ -1,0 +1,276 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:aTTiny85-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "aTTiny85"
+Date "20/11/2017"
+Rev "1.0"
+Comp "Anderson69s.com"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L ATTINY85-S U1
+U 1 1 567108AD
+P 5925 5075
+F 0 "U1" H 4775 5475 50  0000 C CNN
+F 1 "ATTINY85-S" H 6925 4675 50  0000 C CNN
+F 2 "Housings_SOIC:SOIJ-8_5.3x5.3mm_Pitch1.27mm" H 5650 4675 50  0000 C CIN
+F 3 "" H 5925 5075 50  0000 C CNN
+	1    5925 5075
+	1    0    0    -1  
+$EndComp
+Text GLabel 7175 4050 2    60   Input ~ 0
+PB5
+Text GLabel 3375 5325 0    60   Input ~ 0
+PB5
+Text GLabel 7175 4250 2    60   Input ~ 0
+PB0
+Text GLabel 4475 4200 0    60   Input ~ 0
+PB1
+Text GLabel 4475 4000 0    60   Input ~ 0
+PB2
+Text GLabel 4475 3800 0    60   Input ~ 0
+PB3
+Text GLabel 4475 3600 0    60   Input ~ 0
+PB4
+Text GLabel 4500 4825 0    60   Input ~ 0
+PB0
+Text GLabel 4275 4925 0    60   Input ~ 0
+PB1
+Text GLabel 4050 5025 0    60   Input ~ 0
+PB2
+Text GLabel 3825 5125 0    60   Input ~ 0
+PB3
+Text GLabel 3600 5225 0    60   Input ~ 0
+PB4
+Wire Wire Line
+	4275 4925 4575 4925
+Wire Wire Line
+	4500 4825 4575 4825
+Wire Wire Line
+	3825 5125 4575 5125
+Wire Wire Line
+	4050 5025 4575 5025
+Wire Wire Line
+	3600 5225 4575 5225
+Wire Wire Line
+	4575 5325 3375 5325
+Wire Wire Line
+	4875 3450 4875 3600
+Wire Wire Line
+	4875 3600 4475 3600
+Wire Wire Line
+	4975 3450 4975 3800
+Wire Wire Line
+	4975 3800 4475 3800
+Wire Wire Line
+	5075 3450 5075 4000
+Wire Wire Line
+	5075 4000 4475 4000
+Wire Wire Line
+	5175 3450 5175 4200
+Wire Wire Line
+	5175 4200 4475 4200
+Wire Wire Line
+	6525 3500 6525 4250
+Wire Wire Line
+	6525 4250 7175 4250
+Wire Wire Line
+	6625 3500 6625 4050
+Wire Wire Line
+	6625 4050 7175 4050
+Wire Wire Line
+	6825 3500 6825 3650
+Wire Wire Line
+	4825 2400 4750 2400
+Wire Wire Line
+	4750 2400 4750 2700
+Wire Wire Line
+	4825 2500 4750 2500
+Connection ~ 4750 2500
+Wire Wire Line
+	4825 2600 4750 2600
+Connection ~ 4750 2600
+Wire Wire Line
+	6375 2325 6375 2600
+Wire Wire Line
+	6375 2600 6475 2600
+Wire Wire Line
+	6475 2500 6375 2500
+Connection ~ 6375 2500
+Wire Wire Line
+	6475 2400 6375 2400
+Connection ~ 6375 2400
+Wire Wire Line
+	6825 3650 7000 3650
+Wire Wire Line
+	7000 3650 7000 3550
+Wire Wire Line
+	6725 3500 6725 3750
+Wire Wire Line
+	7375 4725 7375 4900
+Wire Wire Line
+	7375 4825 7275 4825
+Wire Wire Line
+	7275 5325 7375 5325
+Wire Wire Line
+	7375 5200 7375 5375
+$Comp
+L C C1
+U 1 1 5A07DC39
+P 7375 5050
+F 0 "C1" H 7400 5150 50  0000 L CNN
+F 1 "10uF" H 7400 4950 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 7950 5050 50  0000 C CNN
+F 3 "" H 7375 5050 50  0001 C CNN
+	1    7375 5050
+	1    0    0    -1  
+$EndComp
+Connection ~ 7375 4825
+Connection ~ 7375 5325
+$Comp
+L Conn_01x04 J3
+U 1 1 5A1320EA
+P 6625 3300
+F 0 "J3" V 6625 3500 50  0000 C CNN
+F 1 "Conn_01x04" V 6625 2800 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm" V 6750 3150 50  0000 C CNN
+F 3 "" H 6625 3300 50  0001 C CNN
+	1    6625 3300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Conn_01x04 J1
+U 1 1 5A132212
+P 4975 3250
+F 0 "J1" V 4975 3450 50  0000 C CNN
+F 1 "Conn_01x04" V 4975 2750 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm" V 5100 3700 50  0000 C CNN
+F 3 "" H 4975 3250 50  0001 C CNN
+	1    4975 3250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Conn_01x03 J2
+U 1 1 5A1322D3
+P 5025 2500
+F 0 "J2" H 5025 2700 50  0000 C CNN
+F 1 "Conn_01x03" H 5025 2300 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 4100 2775 50  0000 C CNN
+F 3 "" H 5025 2500 50  0001 C CNN
+	1    5025 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_01x03 J4
+U 1 1 5A132469
+P 6675 2500
+F 0 "J4" H 6675 2700 50  0000 C CNN
+F 1 "Conn_01x03" H 6675 2300 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 7625 2775 50  0000 C CNN
+F 3 "" H 6675 2500 50  0001 C CNN
+	1    6675 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L VCC #PWR01
+U 1 1 5A13277E
+P 6375 2325
+F 0 "#PWR01" H 6375 2175 50  0001 C CNN
+F 1 "VCC" H 6375 2475 50  0000 C CNN
+F 2 "" H 6375 2325 50  0001 C CNN
+F 3 "" H 6375 2325 50  0001 C CNN
+	1    6375 2325
+	1    0    0    -1  
+$EndComp
+$Comp
+L VCC #PWR02
+U 1 1 5A1327E7
+P 7375 4725
+F 0 "#PWR02" H 7375 4575 50  0001 C CNN
+F 1 "VCC" H 7375 4875 50  0000 C CNN
+F 2 "" H 7375 4725 50  0001 C CNN
+F 3 "" H 7375 4725 50  0001 C CNN
+	1    7375 4725
+	1    0    0    -1  
+$EndComp
+$Comp
+L VCC #PWR03
+U 1 1 5A13282D
+P 7000 3550
+F 0 "#PWR03" H 7000 3400 50  0001 C CNN
+F 1 "VCC" H 7000 3700 50  0000 C CNN
+F 2 "" H 7000 3550 50  0001 C CNN
+F 3 "" H 7000 3550 50  0001 C CNN
+	1    7000 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR04
+U 1 1 5A132881
+P 4750 2700
+F 0 "#PWR04" H 4750 2450 50  0001 C CNN
+F 1 "GND" H 4750 2550 50  0000 C CNN
+F 2 "" H 4750 2700 50  0001 C CNN
+F 3 "" H 4750 2700 50  0001 C CNN
+	1    4750 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR05
+U 1 1 5A1328D4
+P 6725 3750
+F 0 "#PWR05" H 6725 3500 50  0001 C CNN
+F 1 "GND" H 6725 3600 50  0000 C CNN
+F 2 "" H 6725 3750 50  0001 C CNN
+F 3 "" H 6725 3750 50  0001 C CNN
+	1    6725 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR06
+U 1 1 5A13291A
+P 7375 5375
+F 0 "#PWR06" H 7375 5125 50  0001 C CNN
+F 1 "GND" H 7375 5225 50  0000 C CNN
+F 2 "" H 7375 5375 50  0001 C CNN
+F 3 "" H 7375 5375 50  0001 C CNN
+	1    7375 5375
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
